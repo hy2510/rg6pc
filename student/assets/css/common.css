@@ -119,3 +119,29 @@ select::-ms-expand {
     min-height: 10rem;
     background-color: #f2f2f2;
 }
+
+.mb-push-contents {
+    padding-bottom: 3.6rem;
+}
+
+.card-account {
+    height: 10rem;
+}
+
+.goal-status {
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 100rem;
+    color: #ffffff;
+}
+
+.dim-per30 {
+    width: 30%;
+}
+
+.rounded-100 {
+    border-radius: 100rem;
+}
