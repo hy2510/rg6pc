@@ -29,7 +29,7 @@ select::-ms-expand {
 }
 
 .rounded-10 {
-    border-radius: 10px;
+    border-radius: 10px !important;
 }
 
 .bg-focus {
@@ -144,4 +144,12 @@ select::-ms-expand {
 
 .rounded-100 {
     border-radius: 100rem;
+}
+
+.school-logo {
+    max-height: 40px;
+}
+
+.top-right-menu-size {
+    max-width: 320px;
 }
