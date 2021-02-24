@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en" data-pgc-set-master>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Reading Gate - Account</title>
+    <link href="../../../bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="../../../assets/css/font.css" rel="stylesheet" type="text/css">
+    <link href="../../../assets/css/common.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- 상단 -->
+    <div class="bg-white sticky-top" data-pgc-define="PC카테고리" data-pgc-define-name="PC카테고리">
+        <!-- PC 화면 -->
+        <div class="d-none d-lg-block border-bottom">
+            <div class="container px-0">
+                <nav class="navbar navbar-expand-lg navbar-light px-0">
+                    <div class="container-fluid px-0">
+                        <div class="d-flex justify-content-between align-items-center" id="navbarSupportedContent">
+                            <!-- 고객사 로고 이미지 -->
+                            <a href="#" class="navbar-brand">
+                                <!--개인회원 로고--> <img src="../../../assets/image/icon/rg_logo.png" alt=""
+                                    srcset="../../../assets/image/icon/rg_logo@2x.png 2x, ../../../assets/image/icon/rg_logo@3x.png 3x"
+                                    class="logo" />
+                                <!--학원회원 로고-->
+                                <!--<img src="https://wcfresource.a1edu.com/newsystem/image/acalogo/001265_top.png" alt="" class="school-logo" />-->
+                                <!--<img src="https://wcfresource.a1edu.com/newsystem/image/acalogo/001287_top.png" alt="" class="school-logo" />-->
+                            </a>
+                            <!-- PC 홈페이지 메뉴 -->
+                            <ul class="align-items-center d-lg-flex d-none me-auto navbar-nav">
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link active" aria-current="page" href="#">Program</a>
+                                </li>
+                                <li>
+                                    <div class="partition"></div>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link active" aria-current="page" href="#">Ranking</a>
+                                </li>
+                                <li>
+                                    <div class="partition"></div>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link active" aria-current="page" href="#">News</a>
+                                </li>
+                                <li>
+                                    <div class="partition"></div>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link active" aria-current="page" href="#">Promotion</a>
+                                </li>
+                                <li>
+                                    <div class="partition"></div>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link active" aria-current="page" href="#">결제 / 티켓등록</a>
+                                </li>
+                                <li>
+                                    <div class="partition"></div>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link active" aria-current="page" href="#">고객 지원</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="d-flex">
+                            <!-- 로그오프: 교육기관 도입 안내 -->
+                            <div id="logOff" class="d-none">
+                                <div>
+                                    <button class="btn d-lg-inline-block d-none">
+                                        <img src="../../../assets/image/icon/user_icon.png" class="mr-2" />
+                                        <span class="txt-dark-14">교육기관</span>
+                                    </button>
+                                    <button class="btn mr-2 mr-lg-0">
+                                        <img src="../../../assets/image/icon/user_icon.png" class="mr-2" />
+                                        <span class="txt-dark-14">로그인 / 가입</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- 로그온: 학습하기(인트로 화면으로 이동) -->
+                            <div id="logOn" class="d-block">
+                                <div class="align-items-center d-flex">
+                                    <!--학습하기 버튼-->
+                                    <div class="d-none d-lg-block h-100 mr-2">
+                                        <button
+                                            class="align-items-center btn btn-primary d-flex h-100 justify-content-center rounded-100">
+                                            <span class="txt-white-14">Go to Study</span>
+                                        </button>
+                                    </div>
+                                    <!--아바타 버튼 PC-->
+                                    <div class="dropdown mr-2 d-none d-lg-block" data-toggle="dropdown">
+                                        <a class="bg-pale-grey btn pl-2 rounded-100" id="rightMenuButton"
+                                            data-bs-toggle="dropdown" aria-expanded="false"> <img
+                                                src="../../../assets/image/icon/dodo_avatar.png"
+                                                srcset="../../../assets/image/icon/dodo_avatar@2x.png 2x, ../../../assets/image/icon/dodo_avatar@3x.png 3x"
+                                                alt="" width="30" height="30" class="mr-2" /> <span
+                                                class="font-weight-bold  txt-dark-16">KA</span> </a>
+                                    </div>
+                                    <!-- 아바타 팝업 PC -->
+                                    <div class="dropdown-menu dropdown-menu-right mr-2 mt-n1 py-3 rounded-10 top-right-menu-size w-100"
+                                        aria-labelledby="rightMenuButton">
+                                        <div class="px-3">
+                                            <!-- 사용자 이름 -->
+                                            <h6><span>Hello </span><span>이호열</span></h6>
+                                            <!-- 연속 학습 -->
+                                            <div class="mb-3 txt-dark-16">
+                                                <span>연속 학습</span>
+                                                <span>0</span>
+                                                <span>일 째</span>
+                                            </div>
+                                            <!-- 일일 목표 및 토탈 점수, 나의 레벨 -->
+                                            <div class="px-0">
+                                                <div class="mb-3">
+                                                    <div>
+                                                        <!-- 일일 목표 달성율 -->
+                                                        <div
+                                                            class="bg-pale-grey d-flex justify-content-between p-3 rounded-10">
+                                                            <div>
+                                                                <div class="mb-2 txt-grey-14">
+                                                                    <span>오늘 학습 목표</span>
+                                                                    <span>(2020-01-21)</span>
+                                                                </div>
+                                                                <div class="txt-dark-16">
+                                                                    <span>1</span>
+                                                                    <span class="mr-2">Point 획득</span>
+                                                                    <a href="" class="small-link">Edit</a>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <!-- 목표 달성 완료시 -->
+                                                                <div class="bg-primary goal-status ml-auto d-none">
+                                                                    <span>100%</span>
+                                                                </div>
+                                                                <!-- 목표 달성 미완료시 -->
+                                                                <div class="bg-warning goal-status ml-auto">
+                                                                    <span>90%</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <!-- 총 획득 포인트 -->
+                                                        <div class="dim-per30">
+                                                            <div class="bg-pale-grey mb-2 py-3 rounded-10 text-center">
+                                                                <div class="mb-2">
+                                                                    <span class="txt-grey-14">My Points</span>
+                                                                </div>
+                                                                <div class="mb-2">
+                                                                    <span class="txt-dark-18">10000.33</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- 총 읽은 권 수 -->
+                                                        <div class="dim-per30">
+                                                            <div class="bg-pale-grey mb-2 py-3 rounded-10 text-center">
+                                                                <div class="mb-2">
+                                                                    <span class="txt-grey-14">Completed</span>
+                                                                </div>
+                                                                <div class="mb-2">
+                                                                    <span class="txt-dark-18">5000</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- 나의 레벨 -->
+                                                        <div class="dim-per30">
+                                                            <div class="bg-pale-grey mb-2 py-3 rounded-10 text-center">
+                                                                <div class="mb-2">
+                                                                    <span class="txt-grey-14">My Level</span>
+                                                                </div>
+                                                                <div class="mb-2">
+                                                                    <span class="txt-dark-18">KA</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr />
+                                                <div>
+                                                    <button class="bg-pale-grey btn mb-3 py-2 rounded-10 w-100">
+                                                        <span>My Info</span>
+                                                    </button>
+                                                </div>
+                                                <div>
+                                                    <button class="bg-pale-grey btn mb-3 py-2 rounded-10 w-100">
+                                                        <span>학습 레벨 설정</span>
+                                                    </button>
+                                                </div>
+                                                <div>
+                                                    <button class="bg-pale-grey btn mb-3 py-2 rounded-10 w-100">
+                                                        <span>PreK Workbook MP3</span>
+                                                    </button>
+                                                </div>
+                                                <div>
+                                                    <button class="btn btn-dark py-2 rounded-10 w-100">
+                                                        <span>Log Out</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- 모바일 화면 -->
+        <div class="d-block d-lg-none border-bottom top-mp">
+            <div class="container" id="panels2" role="tablist">
+                <div class="row">
+                    <div class="col col-md-10 col-lg-6 mx-auto">
+                        <div class="align-items-center d-flex justify-content-between row">
+                            <!-- 좌측 메뉴 버튼 -->
+                            <div class="col-4 font-weight-bold txt-dark-20">
+                                <a href="#collapseLeft" id="collL" class="btn" data-toggle="collapse"
+                                    aria-controls="collapseLeft"> <img src="../../../assets/image/icon/menu2.png"
+                                        srcset="../../../assets/image/icon/menu2@2x.png 2x, ../../../assets/image/icon/menu2@3x.png 3x"
+                                        alt="" class="mb-1" width="18" height="12" /> </a>
+                            </div>
+                            <!-- 고객사 로고 -->
+                            <div class="col-4 text-center">
+                                <img src="../../../assets/image/icon/rg_logo.png" srcset="../../../assets/image/icon/rg_logo@2x.png 2x,
+                    ../../../assets/image/icon/rg_logo@3x.png 3x" alt="" height="40" />
+                            </div>
+                            <!-- 우측 메뉴 버튼 -->
+                            <div class="col-4 pl-0 text-right">
+                                <a href="#collapseRight" id="collR" class="bg-pale-grey btn pl-2 rounded-100"
+                                    data-toggle="collapse" aria-controls="collapseRight"> <img
+                                        src="../../../assets/image/icon/dodo_avatar.png"
+                                        srcset="../../../assets/image/icon/dodo_avatar@2x.png 2x, ../../../assets/image/icon/dodo_avatar@3x.png 3x"
+                                        alt="" width="30" height="30" class="mr-2" /><span
+                                        class="font-weight-bold txt-dark-14">KA</span> </a>
+                            </div>
+                        </div>
+                        <!-- 좌측 메뉴 펼침 -->
+                        <div class="collapse" id="collapseLeft" aria-labelledby="headingOne" data-parent="#panels2"
+                            role="tabpanel">
+                            <div class="card card-body mt-2 rounded-10">
+                                <!--홈페이지 메인으로 이동-->
+                                <button class="bg-pale-grey btn mb-3 py-2 rounded-10">Home</button>
+                                <button class="bg-pale-grey btn mb-3 py-2 rounded-10">Reading Gate</button>
+                                <button class="bg-pale-grey btn mb-3 py-2 rounded-10">Ranking</button>
+                                <button class="bg-pale-grey btn mb-3 py-2 rounded-10">News</button>
+                                <button class="bg-pale-grey btn mb-3 py-2 rounded-10">Promotion</button>
+                                <button class="bg-pale-grey btn mb-3 py-2 rounded-10">결제 / 티켓등록</button>
+                                <button class="bg-pale-grey btn mb-3 py-2 rounded-10">고객 지원</button>
+                            </div>
+                        </div>
+                        <!-- 우측 메뉴 펼침 -->
+                        <div class="collapse" id="collapseRight" aria-labelledby="headingTwo" data-parent="#panels2"
+                            role="tabpanel">
+                            <div class="my-3">
+                                <!-- 사용자 이름 -->
+                                <h6><span>Hello </span><span>이호열</span></h6>
+                                <!-- 연속 학습 -->
+                                <div class="mb-3 txt-dark-16">
+                                    <span>연속 학습</span>
+                                    <span>0</span>
+                                    <span>일 째</span>
+                                </div>
+                                <button class="btn btn-primary mb-3 py-2 rounded-10 w-100">Go to Study</button>
+                                <!-- 일일 목표 및 토탈 점수, 나의 레벨 -->
+                                <div class="container px-0">
+                                    <div class="row mb-3">
+                                        <div class="col-12">
+                                            <!-- 일일 목표 달성율 -->
+                                            <div class="bg-pale-grey d-flex justify-content-between p-3 rounded-10">
+                                                <div>
+                                                    <div class="mb-2 txt-grey-14">
+                                                        <span>오늘 학습 목표</span>
+                                                        <span>(2020-01-21)</span>
+                                                    </div>
+                                                    <div class="txt-dark-16">
+                                                        <span>1</span>
+                                                        <span class="mr-2">Point 획득</span>
+                                                        <a href="" class="small-link">Edit</a>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <!-- 목표 달성 완료시 -->
+                                                    <div class="bg-primary goal-status ml-auto d-none">100%</div>
+                                                    <!-- 목표 달성 미완료시 -->
+                                                    <div class="bg-warning goal-status ml-auto">90%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3 row">
+                                        <div class="col-12 d-flex justify-content-between">
+                                            <!-- 총 획득 포인트 -->
+                                            <div class="dim-per30">
+                                                <div class="bg-pale-grey mb-2 py-3 rounded-10 text-center">
+                                                    <div class="mb-2">
+                                                        <span class="txt-grey-14">My Points</span>
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <span class="txt-dark-18">10000.33</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- 총 읽은 권 수 -->
+                                            <div class="dim-per30">
+                                                <div class="bg-pale-grey mb-2 py-3 rounded-10 text-center">
+                                                    <div class="mb-2">
+                                                        <span class="txt-grey-14">Completed</span>
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <span class="txt-dark-18">5000</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- 나의 레벨 -->
+                                            <div class="dim-per30">
+                                                <div class="bg-pale-grey mb-2 py-3 rounded-10 text-center">
+                                                    <div class="mb-2">
+                                                        <span class="txt-grey-14">My Level</span>
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <span class="txt-dark-18">KA</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div>
+                                        <button class="bg-pale-grey btn mb-3 py-2 rounded-10 w-100">My Info</button>
+                                    </div>
+                                    <div>
+                                        <button class="bg-pale-grey btn mb-3 py-2 rounded-10 w-100">학습 레벨 설정</button>
+                                    </div>
+                                    <div>
+                                        <button class="bg-pale-grey btn mb-3 py-2 rounded-10 w-100">PreK Workbook
+                                            MP3</button>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-dark mb-3 py-2 rounded-10 w-100">Log Out</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 공통하단 -->
+    <div class="bg-bottom" data-pgc-define="PC공통하단" data-pgc-define-name="PC공통하단">
+        !공통하단
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../../assets/js/jquery.min.js"></script>
+    <script src="../../../assets/js/popper.js"></script>
+    <script src="../../../bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
