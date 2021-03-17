@@ -103,18 +103,6 @@
     color: #979797;
 }
 
-.small-link {
-    font-size: 0.9rem;
-}
-
-.txt-orange {
-    color: #ff8a3d !important;
-}
-
-.txt-red {
-    color: #E13939 !important;
-}
-
-.txt-mint {
-    color: #00c4c9 !important;
+.txt-grey-16.light {
+    color: #dee2e6;
 }
