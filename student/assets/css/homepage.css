@@ -271,6 +271,38 @@ header.board {
     background-image: url("../image/homepage/img_banner_news@2x.png");
 }
 
+header.payment {
+    background-color: #2371e3;
+}
+
+.bg-top.payment {
+    background-image: url("../image/homepage/img_banner_payment@2x.png");
+}
+
+header.support {
+    background-color: #9e8ed1;
+}
+
+.bg-top.support {
+    background-image: url("../image/homepage/img_banner_support@2x.png");
+}
+
+header.school {
+    background-color: #f6a239;
+}
+
+.bg-top.school {
+    background-image: url("../image/homepage/img_banner_school@2x.png");
+}
+
+header.company {
+    background-color: #9290c4;
+}
+
+.bg-top.company {
+    background-image: url("../image/homepage/img_banner_company@2x.png");
+}
+
 /* 상단 베너 색상, 이미지 끝 */
 
 .bg-top {
@@ -709,3 +741,318 @@ input.search {
 }
 
 /* 여기까지 작업함 (2021-05-04) */
+
+.payment .circle {
+    position: absolute;
+    top: 13px;
+    left: 30px;
+}
+
+.circle {
+    font-size: 18px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 100px;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle.green-1 {
+    width: 60px;
+    height: 60px;
+    background-color: #e1d944;
+}
+
+.circle.green-2 {
+    width: 60px;
+    height: 60px;
+    background-color: #00b27f;
+}
+
+.circle.green-3 {
+    width: 60px;
+    height: 60px;
+    background-color: #158b68;
+}
+
+.circle.green-4 {
+    width: 60px;
+    height: 60px;
+    background-color: #065b41;
+}
+
+.ticket-name {
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #404040;
+    margin: 20px 0px;
+}
+
+.ticket-price {
+    font-size: 40px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #404040;
+    margin: 20px 0px;
+}
+
+.btn-blue {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #2371e3;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.bg-grey {
+    background-color: #f2f2f2;
+}
+
+.sub-title {
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #404040;
+}
+
+.purchase-info tr td:nth-child(1) {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #979797;
+}
+
+.purchase-info tr td:nth-child(2) {
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #404040;
+}
+
+@media screen and (max-width: 575px) {
+    .sub-title {
+        font-size: 15px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #404040;
+    }
+
+    .purchase-info tr td:nth-child(1) {
+        padding: 5px;
+        font-size: 16px;
+        color: #979797;
+    }
+
+    .purchase-info tr td:nth-child(2) {
+        padding-left: 5px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #404040;
+    }
+}
+
+.input-label {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #404040;
+}
+
+.txt-dark-16-bold {
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #404040;
+}
+
+.chek-text {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #404040;
+}
+
+@media screen and (max-width: 575px) {
+    .btn-purchase {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .purchase-form {
+        width: 50%;
+    }
+}
+
+.ticket-message {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #404040;
+}
+
+.card-guide img {
+    border-radius: 9px 9px 0px 0px;
+}
+
+.card-guide-img-area {
+    height: 180px;
+    white-space: nowrap;
+}
+
+.card-guide .title {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #404040;
+}
+
+.board .empty {
+    min-height: 450px;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-mp {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+
+.btn-rg-blue {
+    color: #ffffff;
+    background-color: #2371e3;
+}
+
+.btn-rg-blue:hover {
+    color: #ffffff;
+    background-color: #0069d9;
+}
+
+.min-h {
+    min-height: 50vh;
+}
+
+.dim-input {
+    height: 2.8rem !important;
+}
+
+.dim-per30 {
+    width: 30%;
+}
+
+.dim-per32 {
+    width: 32%;
+}
+
+.dim-per47 {
+    width: 47%;
+}
+
+.select-dem {
+    background-image: url('../image/icon/mini-arrow-down.png');
+    background-repeat: no-repeat;
+    background-position: center right 10px;
+}
+
+.btn-mp-s {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../../../assets/image/icon/sort_down.png) no-repeat 97% 50%;
+    height: 2.8rem !important;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.card-main-promotion img {
+    border-radius: 9px 9px 0px 0px;
+}
+
+.card-main-promotion-img-area {
+    height: 180px;
+    white-space: nowrap;
+}
+
+.card-main-promotion .title {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #404040;
+}
+
+.bg-dark-blue {
+    background-color: #f8f5f1;
+}
+
+table th,td {
+    width: 20%;
+    text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+    table th,td {
+        font-size: 11px;
+        padding: 10px 0px !important;
+    }   
+}
