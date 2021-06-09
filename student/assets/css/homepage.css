@@ -459,6 +459,18 @@ header.company {
     padding: 10px;
 }
 
+.rank-card .rank.school {
+    width: 80px;
+    margin-right: 15px;
+    padding: 30px 10px;
+}
+
+@media screen and (max-width: 575px) {
+    .rank-card .rank.school {
+        width: 60px;
+    }
+}
+
 .rank-card .rank .number {
     font-size: 14px;
     font-weight: bold;
@@ -1045,14 +1057,173 @@ select::-ms-expand {
     background-color: #f8f5f1;
 }
 
-table th,td {
+table th,
+td {
     width: 20%;
     text-align: center;
 }
 
 @media screen and (max-width: 575px) {
-    table th,td {
+
+    table th,
+    td {
         font-size: 11px;
         padding: 10px 0px !important;
-    }   
+    }
+}
+
+/* 2021-05-20 이후 작업 */
+
+.bg-cloud {
+    background-image: url('../image/bg/bg_cloud.png');
+    background-position: top left;
+    background-repeat: repeat-x;
+    background-size: 1920px;
+}
+
+footer {
+    background-color: #ffffff;
+}
+
+.trial-book-cover {
+    width: 100%;
+    max-width: 190px;
+    border-radius: 10px;
+    border: 1px solid #f0f2f5;
+}
+
+.trial-list .txt-dark-16 {
+    color: #c2c2c2;
+}
+
+@media screen and (max-width: 575px) {
+    .trial-book-cover {
+        width: 150px;
+    }
+
+    .trial-list .txt-dark-16 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .trial-book-cover {
+        width: 120px;
+    }
+
+    .trial-list .txt-dark-16 {
+        font-size: 13px;
+    }
+
+    .trial-list .txt-dark-20 {
+        font-size: 16px;
+    }
+}
+
+.icon-dot {
+    margin: 0px 6px 2px 0px;
+    width: 8px;
+    height: 8px;
+}
+
+.bg-light-pink {
+    background-color: #fce5f3;
+}
+
+.bg-light-blue {
+    background-color: #d7f7f7;
+}
+
+.bg-light-yellow {
+    background-color: #f9f7cd;
+}
+
+.bg-light-green {
+    background-color: #dff6d4;
+}
+
+.bg-dadoc {
+    background-image: url('../../assets/image/homepage/school/banner_dadok_bg@x2.png');
+    background-size: 150% 190%;
+    background-repeat: repeat-x;
+    background-position: center top -22px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.banner-home-sub {
+    min-height: 155px;
+}
+
+.bg-img-id {
+    background-image: url('../image/homepage/academy/ico_log_id@x2.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center left 15px;
+    padding-left: 42px;
+}
+
+.bg-img-password {
+    background-image: url('../image/homepage/academy/ico_log_pw@x2.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center left 15px;
+    padding-left: 42px;
+}
+
+.img-thumb-gallery {
+    max-height: 142px;
+    border-radius: 10px;
+}
+
+.bg-light-orange {
+    background-color: #f7e0d8;
+}
+
+.bg-hall-of-fame {
+    background-image: url('../image/homepage/academy/banner_ranking_bg@x2.png');
+    background-size: cover;
+}
+
+.hompage-contrnts {
+    padding: 20px;
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 575px) {
+    .hompage-contrnts {
+        padding: 10px;
+        padding-top: 40px;
+    }
+}
+
+.hompage-contrnts img {
+    width: 100%;
+}
+
+.hompage-contrnts .nav-link {
+    border-radius: 15px 15px 0px 0px !important;
+    font-size: 20px;
+    color: #929292;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.hompage-contrnts .nav-link.active {
+    background-color: #e13939 !important;
+    color: #ffffff !important;
+}
+
+@media screen and (max-width: 575px) {
+    .hompage-contrnts .nav-link {
+        border-radius: 12px 12px 0px 0px !important;
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 576px) {
+    .row.payment {
+        height: 40vh;
+    }
 }
