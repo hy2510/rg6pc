@@ -1,0 +1,218 @@
+#main_intro {
+    background-color: #f3f7f9;
+    padding-top: 135px;
+    padding-bottom: 142px;
+}
+
+#main_media {
+    background-color: #fef1e0;
+    padding-top: 95px;
+    padding-bottom: 125px;
+}
+
+#main_media .overflow {
+    overflow-x: auto;
+    white-space: nowrap;
+    word-break: normal;
+}
+
+#main_studyProcess {
+    background-color: #ffeeee;
+    padding-top: 115px;
+    padding-bottom: 145px;
+}
+
+#main_review {
+    background-color: #fef1e0;
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+
+#main_qna {
+    background-color: #ffffff;
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+#main_qna ul li {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-top: 1px solid #e8e8e8;
+}
+
+@media only screen and (max-width:1023px) {
+    #main_intro {
+        background-color: #f3f7f9;
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    #main_intro .md.mb60 {
+        margin-bottom: 40px;
+    }
+
+    #main_media {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #main_studyProcess {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #main_review {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    #main_qna {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+}
+
+/* 2020.03.18 이후 작업 (서혜민) */
+
+#main_intro {
+    background-color: #f1f4f8;
+    padding-top: 90px;
+    padding-bottom: 330px;
+    background-image: url(../../assets/image/homepage_main_vet/main_cloud_blue.png);
+    background-position: bottom;
+    background-repeat:repeat-x; 
+}
+
+#main_brandWinner{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color: #2d3d74;
+}
+
+#main_media {
+    background-color: #213062;
+    padding-top: 120px;
+    padding-bottom: 125px;
+}
+
+#main_onlineContents{
+    background-color: #ffc72e;
+    padding-top: 120px;
+    padding-bottom: 125px;
+}
+
+#main_studyProcess {
+    background-color: #ffffff;
+    padding-top: 120px;
+    padding-bottom: 250px;
+    background-image: url(../../assets/image/homepage_main_vet/main_cloud_grey.png);
+    background-position: bottom;
+    background-repeat:repeat-x; 
+}
+
+#main_mobilePlatform{
+    background-color: #F1F4F8;
+}
+
+#main_review {
+    background-color: #000000;
+    padding-top: 120px;
+    padding-bottom: 110px;
+    background-image: url(../../assets/image/homepage_main_vet/bg_review.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat:no-repeat; 
+}
+
+#main_institution{
+    background-color: #213062;
+    padding-top: 125px;
+    padding-bottom: 145px;
+}
+
+#main_qna {
+    background-color: #ffffff;
+    padding-top: 120px;
+    padding-bottom: 110px;
+}
+
+
+
+@media only screen and (max-width:575px) {
+    #main_intro .md.mb60 {
+        margin-bottom: 40px;
+    }
+
+    #main_media {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    #main_onlineContents {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    #main_review {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    #main_institution {
+        background-color: #213062;
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    #main_qna {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+}
+
+
+
+@media (max-width:375px) {
+    #main_intro {  
+    background-image: url(../../assets/image/homepage_main_vet/main_cloud_blue_xs.png);
+    background-position: bottom;
+    background-repeat:none;
+    padding-top: 60px;
+    padding-bottom: 280px;
+    }
+    
+    #main_studyProcess {  
+    background-image: url(../../assets/image/homepage_main_vet/main_cloud_grey_xs.png);
+    background-position: bottom;
+    background-repeat:none;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    }
+}
+
+@media (min-width:376px) and (max-width:991px) {
+    #main_intro {  
+    background-image: url(../../assets/image/homepage_main_vet/main_cloud_blue_md.png);
+    background-position: bottom;
+    background-repeat:none;
+    padding-top: 70px;
+    padding-bottom: 360px;
+    }
+    
+    #main_studyProcess {  
+    background-image: url(../../assets/image/homepage_main_vet/main_cloud_grey_md.png);
+    background-position: bottom;
+    background-repeat:none;
+    padding-top: 80px;
+    padding-bottom: 320px;
+    }
+}
+
+
+
+
+
+
+
+
+
