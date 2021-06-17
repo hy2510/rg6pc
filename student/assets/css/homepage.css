@@ -1142,6 +1142,10 @@ footer {
     background-color: #dff6d4;
 }
 
+.bg-light-purple {
+    background-color: #DEE1FF;
+}
+
 .bg-dadoc {
     background-image: url('../../assets/image/homepage/school/banner_dadok_bg@x2.png');
     background-size: 150% 190%;
