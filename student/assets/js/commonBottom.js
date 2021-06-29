@@ -7,6 +7,7 @@ let companyMenu = (`
                 <a href=""><img src="../../../assets/image/homepage/ico-blog-on@2x.png" alt="" width="40"></a>
                 <a href=""><img src="../../../assets/image/homepage/ico-youtube-on@2x.png" alt="" width="40"></a>
                 <a href=""><img src="../../../assets/image/homepage/ico-insta-on@2x.png" alt="" width="40"></a>
+                <a href="https://character.readinggate.com/" target="blank"><img src="../../../assets/image/homepage/ico_dodofriends@x2.png" alt="" width="65"></a>
             </div>
             <div>
                 <a href="#" class="p-2 text-decoration-none txt-white-16 bg-dark rounded-10">top</a>
