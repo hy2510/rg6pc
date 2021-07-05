@@ -615,6 +615,10 @@ input[type="checkbox"]:checked+label {
     background-color: #E13939;
 }
 
+.btn-rg-red:hover {
+    color: #ffffff;
+}
+
 .btn-circle {
     width: 30px;
     height: 30px;

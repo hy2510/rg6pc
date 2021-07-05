@@ -59,16 +59,16 @@
 					<div class="bg-pale-grey p-2 p-md-3 purchase-info rounded-10 mb-4">
 						<table>
 							<tr>
-								<td>상품명</td>
-								<td>리딩게이트 30일 이용권</td>
+								<td class="text-left pl-2">상품명</td>
+								<td class="text-left">리딩게이트 30일 이용권</td>
 							</tr>
 							<tr>
-								<td>결제 금액</td>
-								<td>30,000원</td>
+								<td class="text-left pl-2">결제 금액</td>
+								<td class="text-left">30,000원</td>
 							</tr>
 							<tr>
-								<td>학습 기간</td>
-								<td>+ 30일 (결제후 60일)</td>
+								<td class="text-left pl-2">학습 기간</td>
+								<td class="text-left">+ 30일</td>
 							</tr>
 						</table>
 					</div>
@@ -98,8 +98,61 @@
 							<label class="form-check-label" for="check1">개인정보 수집 및 결제 정보 수신 동의</label>
 						</div>
 					</form>
-					<div>
-						<button class="btn btn-blue px-5 btn-purchase">결제하기</button>
+					<div class="sub-title mb-3">결제 수단 선택</div>
+						<!-- <button class="btn btn-blue px-5 btn-purchase">결제하기</button> -->
+
+						<div class="row">
+							<div class="col-6 col-lg-4 mb-3">
+								<a href="#" class="text-decoration-none" onclick="kakaoCheck();">
+									<div class="text-center border rounded-10 p-3">
+										<div class="h55 d-flex justify-content-center align-items-center mb-2">
+											<img src="https://www.readinggate.com/Content/assets/homepage/img/icon/ico_payment_icon_yellow_large.png" alt="" style="width:66px;">
+										</div>
+										<p class="mb-0 txt-dark-14">카카오 페이</p><!-- 카카오 페이 -->
+									</div>
+								</a>
+							</div>
+							<div class="col-6 col-lg-4 mb-3">
+								<a href="#" class="text-decoration-none" onclick="fnc_INIPayStd('Card');">
+									<div class="text-center border rounded-10 p-3">
+										<div class="h55 d-flex justify-content-center align-items-center mb-2">
+											<img src="https://www.readinggate.com/Content/assets/homepage/img/icon/ico-card-1.png" alt="" style="width:56px;">
+										</div>
+										<p class="mb-0 txt-dark-14">신용카드</p><!-- 신용카드 -->
+									</div>
+								</a>
+							</div>
+							<div class="col-6 col-lg-4 mb-3">
+								<a href="#" class="text-decoration-none" onclick="fnc_INIPayStd('VBank');">
+									<div class="text-center border rounded-10 p-3">
+										<div class="h55 d-flex justify-content-center align-items-center mb-2">
+											<img src="https://www.readinggate.com/Content/assets/homepage/img/icon/ico-passbook-1.png" alt="" style="width:61px;">
+										</div>
+										<p class="mb-0 txt-dark-14">무통장 입금</p><!-- 무통장 입금 -->
+									</div>
+								</a>
+							</div>
+							<div class="col-6 col-lg-4 mb-3">
+								<a href="#" class="text-decoration-none" onclick="fnc_INIPayStd('DirectBank');">
+									<div class="text-center border rounded-10 p-3">
+										<div class="h55 d-flex justify-content-center align-items-center mb-2">
+											<img src="https://www.readinggate.com/Content/assets/homepage/img/icon/ico-cache-1.png" alt="" style="width:54px;">
+										</div>
+										<p class="mb-0 txt-dark-14">실시간 계좌 이체</p><!-- 실시간 계좌 이체 -->
+									</div>
+								</a>
+							</div>
+							<div class="col-6 col-lg-4 mb-3">
+								<a href="#" class="text-decoration-none" onclick="PayPalCheck();">
+									<div class="text-center border rounded-10 p-3">
+										<div class="h55 d-flex justify-content-center align-items-center mb-2">
+											<img src="https://www.readinggate.com/Content/assets/homepage/img/icon/ico_paypal_logo_logotype_emblem.png" alt="" style="width:83px;">
+										</div>
+										<p class="mb-0 txt-dark-14">페이팔</p>
+									</div>
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
