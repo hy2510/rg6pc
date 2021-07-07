@@ -59,7 +59,14 @@
 			<div class="hompage-contrnts">
 
 				<!-- 임시 베너(개인, 베트남만 보여주기) -->
-				<img src="../../../assets/image/homepage/contents/03_about_dodo_abc/top.png" alt="" class="w-100 mb-5">
+				<div class="top-notice">
+					<img src="../../../assets/image/homepage/contents/03_about_dodo_abc/top.png" alt="" class="w-100" style="border-radius: 10px 10px 0px 0px;">
+				</div>
+				<div class="mb-5 pb-lg-5">
+					<div class="col text-center txt-white-20 py-2 py-lg-3 bg-danger mb-5" style="border-radius: 0px 0px 10px 10px;">
+						<div id="dodoOpen"></div>
+					</div>
+				</div>
 
 				<!-- 개인: 한국어 -->
 				<div id="indiKor" class="d-block">
@@ -251,6 +258,14 @@
 	<script src="../../../assets/js/commonTop.js"></script>
 	<script src="../../../assets/js/commonBottom.js"></script>
 	<script src="../../../assets/js/common.js"></script>
+	<script>
+		// Dodo ABC 오픈 D-Day
+        let now = new Date();
+        let dodoOpen = new Date('2021-07-26');
+        let timeDiff = dodoOpen.getTime() - now.getTime();
+        let dDay = Math.floor(timeDiff / (1000 * 60 * 60 * 24) + 1);
+        $('#dodoOpen').text('오픈까지 ' + dDay + '일 남았습니다!');
+    </script>
 </body>
 
 </html>

@@ -1259,3 +1259,16 @@ footer {
 .bg-global-academy {
     background-color: #fde8e7;
 }
+
+@media (min-width: 576px) {
+    .top-notice {
+        margin-top: -78px;
+    }
+}
+
+@media (max-width: 575px) {
+    .top-notice {
+        margin-top: -28px;
+    }
+}
+
