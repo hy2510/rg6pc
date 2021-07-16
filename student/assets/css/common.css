@@ -2524,3 +2524,7 @@ body.space-top {
         min-height: 100vh;
     }
 }
+
+.border {
+    border: 2px solid #f0f2f5 !important;
+}
