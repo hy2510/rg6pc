@@ -1236,9 +1236,11 @@ footer {
     .promotion-title {
         font-size: 24px;
     }
+
     .promotion-sub-title {
         font-size: 16px !important;
     }
+
     .promotion-p {
         font-size: 15px !important;
     }
@@ -1272,3 +1274,45 @@ footer {
     }
 }
 
+.label-level-masters {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bg-aqua {
+    background-color: #35c5dc;
+}
+
+.bg-wave-aqua {
+    background-image: url('../image/homepage/bg-wave-aqua@2x.png');
+    background-size: 384px;
+    background-repeat: repeat-x;
+}
+
+.ml40 {
+    margin-left: 40px;
+}
+
+.level-master-carousel-indicator.left {
+    position: absolute;
+    top: 33px;
+    left: 10px;
+    z-index: 99998;
+}
+
+.level-master-carousel-indicator.right {
+    position: absolute;
+    top: 33px;
+    right: 10px;
+    z-index: 99999;
+}
+
+.level-master-counter {
+    position: absolute;
+    bottom: 8px;
+    right: 14px;
+    
+}
+
+.rounded-bottom-9 {
+    border-radius: 0px 0px 9px 9px;
+}
