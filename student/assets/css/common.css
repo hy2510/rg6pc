@@ -2528,3 +2528,19 @@ body.space-top {
 .border {
     border: 2px solid #f0f2f5 !important;
 }
+
+.bg-dodo-friends-home {
+    background-color: #d9728f;
+}
+
+.bg-dodo-friends-home-bar {
+    background-color: #901C63;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.border-pale-grey {
+    border: 1px solid #f0f2f5;
+}
