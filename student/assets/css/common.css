@@ -2563,3 +2563,58 @@ body.space-top {
     color: #ffffff;
     cursor: pointer;
 }
+
+.history-table-check {
+    min-width: 13px;
+    max-width: 13px;
+}
+
+.history-table-code {
+    min-width: 94px;
+    max-width: 94px;
+}
+
+.history-table-no {
+    min-width: 30px;
+    max-width: 49px;
+}
+
+.history-table-date {
+    min-width: 60px;
+    max-width: 80px;
+}
+
+.history-table-title {
+    min-width: 240px;
+    max-width: 240px;
+}
+
+.history-table-step {
+    min-width: 49px;
+    max-width: 49px;
+}
+
+.history-table-step {
+    min-width: 49px;
+    max-width: 49px;
+}
+
+.history-table-score {
+    min-width: 58px;
+    max-width: 58px;
+}
+
+.history-table-mode {
+    min-width: 58px;
+    max-width: 58px;
+}
+
+.history-table-point {
+    min-width: 57px;
+    max-width: 57px;
+}
+
+.history-table-revision {
+    min-width: 57px;
+    max-width: 57px;
+}
