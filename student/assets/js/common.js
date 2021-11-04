@@ -8,13 +8,13 @@ function closeNav() {
 }
 
 //스마트폰 서브메뉴
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function () {
-    var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navbar").style.top = "60px";
-    } else {
-        document.getElementById("navbar").style.top = "0px";
-    }
-    prevScrollpos = currentScrollPos;
-}
+// var prevScrollpos = window.pageYOffset;
+// window.onscroll = function () {
+//     var currentScrollPos = window.pageYOffset;
+//     if (prevScrollpos > currentScrollPos) {
+//         document.getElementById("navbar").style.top = "60px";
+//     } else {
+//         document.getElementById("navbar").style.top = "0px";
+//     }
+//     prevScrollpos = currentScrollPos;
+// }
