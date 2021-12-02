@@ -906,30 +906,6 @@ input[type="checkbox"]:checked+label {
 }
 
 /* 도서정보 */
-
-.book-info .start .btn.speak:hover {
-    color: #ffffff;
-    background-color: #e13939;
-}
-
-.book-info .start .btn.speak {
-    border: 1.5px solid #e13939;
-    background-color: #ffffff;
-    color: #e13939;
-}
-
-.ico-speak {
-    width: 10px;
-    height: 10px;
-    background-color: #e13939;
-    margin-right: 8px;
-    border-radius: 999px;
-}
-
-.speak:hover > .ico-speak {
-    background-color: #ffffff;
-}
-
 @media screen and (max-width: 350px) {
     .book-info .start .btn {
         border-radius: 999px;
