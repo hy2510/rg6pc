@@ -1,0 +1,82 @@
+.navbar30 {
+    height: 30px;
+}
+
+a {
+    color: #979797;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+.navbar-nav li {
+    margin-right: 0px;
+    width: 100px;
+    text-align: center;
+}
+
+
+
+.nav-acti{
+    color: #3AB6FF;
+}
+
+.navbar{
+    padding: 0px;
+    height: 70px !important;
+}
+
+#navbarNav .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#navbarNav .nav-item.active::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    border-radius: 100px;
+    background-color: #3AB6FF;
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-menu a:active{color:#000000}
+
+.nav-link a:hover{color:#3AB6FF !important;}
+.nav-item:hover{
+    cursor: pointer;
+    color:#3AB6FF !important;
+}
+
+.btn-round{border-radius: 50px;}
+
+.nav-link.active {
+    color: #3AB6FF !important;
+    background-color: transparent;
+}
+
+
+.bg-light-blue2{
+    background-color:#F3F9FE ;
+}
+
+.nav-link2 {
+    padding: 0  0.5rem;
+}
+
+.top-menubar {
+    padding-right: 0px; 
+    padding-left: 0px; 
+
+}
+
+
+
+.chv-down-icon:hover {
+    transform: rotateX(180deg);
+    margin-bottom: 2px;
+}
+
