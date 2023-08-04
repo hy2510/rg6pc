@@ -1315,3 +1315,19 @@ footer {
 .rounded-bottom-9 {
     border-radius: 0px 0px 9px 9px;
 }
+
+
+.bg-color-purple{
+    color: rgba(255, 255, 255, 0.50);
+/* 14_medium */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: -0.28px;
+border-radius: 14px;
+background-color: #704EA6 !important;
+}
+
+

@@ -19,7 +19,7 @@
 		<div class="border-bottom py-2">
 			<nav class="navbar navbar-expand-lg navbar-light p-0">
 				<div class="align-items-center container justify-content-between px-0">
-					<div class="d-lg-block d-none" id="navbarSupportedContent">
+					<d	v class="d-lg-block d-none" id="navbarSupportedContent">
 						<div class="align-items-center d-flex">
 							<div class="px-3">
 								<span style="cursor:pointer" onclick="openNav()" class="px-2"> <img
@@ -318,9 +318,10 @@
 									<span class="d-flex align-items-center"> <span class="mr-2">My Level</span> <span>
 											<img src="../../../assets/image/icon/mini_right_arrow.png" alt=""
 												srcset="../../../assets/image/icon/mini_right_arrow@2x.png 2x, ../../../assets/image/icon/mini_right_arrow@3x.png 3x"
-												class="mr-2" /> </span> <span
-											class="txt-dark-16 font-weight-bold mr-2">KA</span> <span
-											class="badge badge-pill badge-danger py-1 d-flex align-items-center mr-2">20</span>
+												class="mr-2" /> </span> 
+											<span class="txt-dark-16 font-weight-bold mr-2">KA</span> 
+											<span class="badge badge-pill badge-danger py-1 d-flex align-items-center mr-2">20</span>
+											<span class="txt-grey-12 mr-2" >다른레벨 보러가기</span> 
 									</span>
 									<span class="d-flex align-items-center"> <img
 											src="../../../assets/image/icon/sort_down.png" alt=""
@@ -341,17 +342,21 @@
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content modal-bg">
 									<div class="d-flex justify-content-between mb-3">
-										<span class="modal-title px-2">Find out your level </span>
+										<span class="modal-title px-2">다른 레벨 둘러보기 </span>
 										<a href="#" class="p-2" data-dismiss="modal" aria-label="Close"><img
 												src="../../../assets/image/icon/delete.png"
 												srcset="../../../assets/image/icon/delete@2x.png 2x, ../../../assets/image/icon/delete@3x.png 3x"
 												alt=""></a>
 									</div>
-									<div class="container">
-										<div class="row">
-											<div class="col-4 px-2 mb-2">
+									<!--초등학교 저학년 권장레벨-->
+									<div class="container p-0 mb-3">
+										<div class="mb-2  txt-dark-16 outli-0">
+											<div class="level-title px-2 level-color-k">초등학생 저학년 권장레벨</div>
+										</div>
+										<div class="row m-0">
+											<div class="col-4 px-2 mb-2 p-0">
 												<!-- 마우스 오버시 남은 권 수 표시(아래 스크립트 추가 필수) -->
-												<div class="btn-level bg-level-ka d-flex justify-content-between"
+												<div class="btn-level bg-level-ka d-flex justify-content-between level-ka-ouline"
 													data-toggle="popover" data-html="true"
 													data-content="Total: 100 <br> Completed: 2 <br> Incomplete: 98"
 													data-placement="bottom" data-trigger="hover" data-original-title>
@@ -359,131 +364,162 @@
 													<span class="book-count">20</span>
 												</div>
 											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-kb d-flex justify-content-between">
+											<div class="col-4 px-2 mb-2  p-0">
+												<div class="btn-level d-flex justify-content-between level-kb-ouline bg-level-kb">
 													<span>KB</span>
 													<span class="book-count">999</span>
 												</div>
 											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-kc d-flex justify-content-between">
+											<div class="col-4 px-2 mb-2  p-0">
+												<div class="btn-level bg-level-kc d-flex justify-content-between level-kc-ouline">
 													<span>KC</span>
 													<span class="book-count">999</span>
 												</div>
 											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-1a d-flex justify-content-between">
+										</div>
+										<div>
+									</div>
+									</div>
+									<!--초등학생 고학년 권장레벨-->
+									<div class="container p-0  mb-3">
+										<div class="mb-2  txt-dark-16 outli outli-1">
+											<div class="level-title px-2 level-color-1">초등학생 고학년 권장레벨</div>
+										</div>
+										<div class="row m-0">
+											<div class="col-4 px-2 mb-2 p-0">
+												<div class="btn-level bg-level-1a d-flex justify-content-between level-1a-ouline">
 													<span>1A</span>
-													<span class="book-count">999</span>
+													<span class="book-count">20</span>
 												</div>
 											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-1b d-flex justify-content-between">
+											<div class="col-4 px-2 mb-2  p-0">
+												<div class="btn-level bg-level-1b d-flex justify-content-between level-1b-ouline">
 													<span>1B</span>
 													<span class="book-count">999</span>
 												</div>
 											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-1c d-flex justify-content-between">
+											<div class="col-4 px-2 mb-2  p-0">
+												<div class="btn-level bg-level-1c d-flex justify-content-between level-1c-ouline">
 													<span>1C</span>
 													<span class="book-count">999</span>
 												</div>
 											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-2a d-flex justify-content-between">
+										</div>
+										<div>
+									</div>
+									</div>
+									<!--중학교 권장 레벨-->
+									<div class="container p-0  mb-3">
+										<div class="mb-2  txt-dark-16 outli  outli-2">
+											<div class="level-title px-2 level-color-2">중학교 권장레벨</div>
+										</div>
+										<div class="row m-0">
+											<div class="col-4 px-2 mb-2 p-0">
+												<div class="btn-level bg-level-2a d-flex justify-content-between level-2a-ouline">
 													<span>2A</span>
-													<span class="book-count">999</span>
+													<span class="book-count">20</span>
 												</div>
 											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-2b d-flex justify-content-between">
+											<div class="col-4 px-2 mb-2  p-0">
+												<div class="btn-level bg-level-2b d-flex justify-content-between level-2b-ouline">
 													<span>2B</span>
 													<span class="book-count">999</span>
 												</div>
 											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-2c d-flex justify-content-between">
+											<div class="col-4 px-2 mb-2  p-0">
+												<div class="btn-level bg-level-2c d-flex justify-content-between level-2c-ouline">
 													<span>2C</span>
 													<span class="book-count">999</span>
 												</div>
 											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-3a d-flex justify-content-between">
+											<div class="col-4 px-2 mb-2  p-0">
+												<div class="btn-level bg-level-3a d-flex justify-content-between level-3a-ouline">
 													<span>3A</span>
 													<span class="book-count">999</span>
 												</div>
 											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-3b d-flex justify-content-between">
+											<div class="col-4 px-2 mb-2  p-0">
+												<div class="btn-level bg-level-3b d-flex justify-content-between level-3b-ouline">
 													<span>3B</span>
 													<span class="book-count">999</span>
 												</div>
 											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-3c d-flex justify-content-between">
+											<div class="col-4 px-2 mb-2  p-0">
+												<div class="btn-level bg-level-3c d-flex justify-content-between level-3c-ouline">
 													<span>3C</span>
 													<span class="book-count">999</span>
 												</div>
 											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-4a d-flex justify-content-between">
-													<span>4A</span>
-													<span class="book-count-black">999</span>
-												</div>
-											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-4b d-flex justify-content-between">
-													<span>4B</span>
-													<span class="book-count-black">999</span>
-												</div>
-											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-4c d-flex justify-content-between">
-													<span>4C</span>
-													<span class="book-count-black">999</span>
-												</div>
-											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-5a d-flex justify-content-between">
-													<span>5A</span>
-													<span class="book-count-black">999</span>
-												</div>
-											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-5b d-flex justify-content-between">
-													<span>5B</span>
-													<span class="book-count-black">999</span>
-												</div>
-											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-5c d-flex justify-content-between">
-													<span>5C</span>
-													<span class="book-count-black">999</span>
-												</div>
-											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-6a d-flex justify-content-between">
-													<span>6A</span>
-													<span class="book-count-black">999</span>
-												</div>
-											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-6b d-flex justify-content-between">
-													<span>6B</span>
-													<span class="book-count-black">999</span>
-												</div>
-											</div>
-											<div class="col-4 px-2 mb-2">
-												<div class="btn-level bg-level-6c d-flex justify-content-between">
-													<span>6C</span>
-													<span class="book-count-black">999</span>
-												</div>
-											</div>
 										</div>
-										<div class="text-center py-3">
-											<a href="">레벨 선택 가이드</a>
-										</div>
+										<div>
 									</div>
+									</div>
+									<!--고등학교 이상 권장-->
+									<div class="container p-0  mb-3">
+										<div class="mb-2  txt-dark-16 outli outli-4">
+											<div class="level-title px-2 level-color-3">고등학교 이상 권장</div>
+										</div>
+										<div class="row m-0">
+											<div class="col-4 px-2 mb-2 p-0">
+												<div class="btn-level bg-level-4a d-flex justify-content-between level-4a-ouline">
+													<span>4A</span>
+													<span class="book-count">20</span>
+												</div>
+											</div>
+											<div class="col-4 px-2 mb-2  p-0">
+												<div class="btn-level bg-level-4b d-flex justify-content-between level-4b-ouline">
+													<span>4B</span>
+													<span class="book-count">999</span>
+												</div>
+											</div>
+											<div class="col-4 px-2 mb-2  p-0">
+												<div class="btn-level bg-level-4c d-flex justify-content-between level-4c-ouline">
+													<span>4C</span>
+													<span class="book-count">999</span>
+												</div>
+											</div>
+											<div class="col-4 px-2 mb-2  p-0">
+												<div class="btn-level bg-level-5a d-flex justify-content-between level-5a-ouline">
+													<span>5A</span>
+													<span class="book-count">999</span>
+												</div>
+											</div>
+											<div class="col-4 px-2 mb-2  p-0">
+												<div class="btn-level bg-level-5b d-flex justify-content-between level-5b-ouline">
+													<span>5B</span>
+													<span class="book-count">999</span>
+												</div>
+											</div>
+											<div class="col-4 px-2 mb-2  p-0">
+												<div class="btn-level bg-level-5c d-flex justify-content-between level-5c-ouline">
+													<span>5C</span>
+													<span class="book-count">999</span>
+												</div>
+											</div>
+											<div class="col-4 px-2 mb-0  p-0">
+												<div class="btn-level bg-level-6a d-flex justify-content-between level-6a-ouline">
+													<span>6A</span>
+													<span class="book-count">999</span>
+												</div>
+											</div>
+											<div class="col-4 px-2 mb-0  p-0">
+												<div class="btn-level bg-level-6b d-flex justify-content-between level-6b-ouline">
+													<span>6B</span>
+													<span class="book-count">999</span>
+												</div>
+											</div>
+										</div>
+										<div>
+									</div>
+									</div>
+									<div class="txt-grey-12 px-2">
+										* My Level은 언제든 변경이 가능합니다.
+									</div>
+									<a href="/Account/ChooseLevelGuide" class="">
+										<button type="button" class="btn btn-outline-dark btn-level-dark txt-dark-14 mt-3 border-grey">
+										<!-- 레벨 선택 가이드 -->
+										레벨 선택 가이드
+									</button></a>
 								</div>
 							</div>
 						</div>

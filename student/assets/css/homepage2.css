@@ -80,3 +80,15 @@ a {
     margin-bottom: 2px;
 }
 
+/*css 추가*/
+
+#avatar:focus
+{
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.bg-white2 {
+    background-color: #f0f2f5 !important;
+}
+
