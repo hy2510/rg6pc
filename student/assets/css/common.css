@@ -2965,6 +2965,7 @@ body.space-top {
     gap: 20px;
     width: 100%;
     overflow-x: scroll;
+    align-items: stretch;
 }
 
 .level-thumbnail-list::-webkit-scrollbar {
@@ -3053,4 +3054,28 @@ body.space-top {
 
 .white50{
   color: #ffffff74;
+}
+
+/* 그리드 */
+.level-thumbnail-list .grid {
+  display: grid;
+  /* 그리드의 방향 */
+  grid-template-columns: 80px 1fr; 
+  /* 그리드 사이의 간격 */
+  gap: 10px;
+
+}
+
+.level-thumbnail-list .grid .first {
+  width: 100%;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  color: #ffffff50;
+  font-size: 0.95em;
+}
+
+.level-thumbnail-list .grid .seccond {
+  width: 100%;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
 }
