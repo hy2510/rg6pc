@@ -2905,7 +2905,6 @@ body.space-top {
   letter-spacing: -0.28px;
   border-radius: 14px;
   background-color: #704ea6 !important;
-  margin-bottom: 20px;
   line-height: 24px;
 }
 .bg-color-orange {
@@ -2952,11 +2951,19 @@ body.space-top {
 
 }
 
+.container.choose-level{
+  padding: 0px;
+}
+
 .choose-level {
     height: calc(100vh - 250px);
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media (max-height: 880px) {
+  .choose-level {height: 100%;}
 }
 
 .level-thumbnail-list {
@@ -2966,6 +2973,8 @@ body.space-top {
     width: 100%;
     overflow-x: scroll;
     align-items: stretch;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .level-thumbnail-list::-webkit-scrollbar {
@@ -3079,3 +3088,5 @@ body.space-top {
   white-space: pre-wrap;
   overflow-wrap: break-word;
 }
+
+
