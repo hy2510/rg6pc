@@ -1073,7 +1073,10 @@ input[type="checkbox"]:checked + label {
   color: #979797;
 }
 
-@media (max-width: 320px) {
+
+/* 2023.08.29 수정된 부분 시작*/
+@media (max-width: 424px) {
+  /* 2023.08.29 수정된 부분 끝*/
   .resources div .btn {
     padding: 4px 8px 4px 8px;
     border-radius: 999px;
@@ -1276,14 +1279,72 @@ input[type="checkbox"]:checked + label {
   color: #404040;
 }
 
-.period-score div div {
+
+/* 2023.09.19 수정사항 */
+/* .period-score div div {
   color: #979797;
   font-size: 16px;
 }
-
 .period-score div div + div {
   color: #404040;
   font-weight: 600;
+}  */
+.report-bar{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.report-bar .top{
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 4px 0;
+}
+.report-bar .con{
+  font-size: 1.2rem;
+  padding: 10px 0;
+  background-color: #f4f4f4;
+}
+.report-bar .read{
+  border-radius: 10px 0 0 0;
+  background-color: #979797;
+  color: #fff;
+}
+.report-bar .read-txt{
+  color:#979797;
+  border-radius: 0 0 0 10px;
+}
+.report-bar .passed{
+  background-color: #2C9BEA;
+  color: #fff;
+}
+.report-bar .passed-txt{
+  color:#2C9BEA;
+}
+.report-bar .points{
+  background-color: #faa500;
+  color: #fff;
+  border-radius: 0 10px 0 0;
+}
+.report-bar .points-txt{
+  color:#faa500;
+  border-radius: 0 0 10px 0 ;
+}
+/* 2023.09.19 수정사항 끝*/
+
+.report-round{
+  display: flex;
+  background-color:#979797 ;
+  border-radius: 50px;
+  color:#fff;
+  padding: 4px 3px 4px 14px;
+}
+
+.report-round .round{
+  background-color: #fff;
+  border-radius: 50px;
+  color:#979797;
 }
 
 .book-list div div:nth-child(odd) div {
@@ -1319,13 +1380,15 @@ input[type="checkbox"]:checked + label {
 .bookbook.border {
   border: 2px solid #f0f2f5 !important;
 }
-
+/* 2023.09.19 수정사항 */
 /* Assessment 카드 아이템 */
 .assessment-card {
-  background-color: #f0f2f5;
+  border: 1px solid #e4e4e4;
+  background-color: #fff;
   border-radius: 10px;
   cursor: pointer;
 }
+/* 2023.09.19 수정사항 끝*/
 
 .assessment-card .list-number {
   margin-bottom: 10px;
@@ -1348,21 +1411,34 @@ input[type="checkbox"]:checked + label {
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
-
+/* 0822 변경된 부분 시작 */
 .assessment-card .study-result {
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
 
-.assessment-card .study-result div {
+  display: grid;
+  grid-template-columns:5fr 1fr;
+  align-items: center;
+}
+/* 0822 변경된 부분 끝 */
+
+.assessment-card .study-result .div {
   margin-right: 5px;
   display: inline;
 }
+
 
 .assessment-short-info .book-checkbox {
   right: -4px;
   top: 5px;
 }
+
+/* 0822 변경된 부분 시작 */
+.btn-review {
+  width: 72px;
+  height: 42px;
+  background-color: #324b6d;
+  color: #ffffff;
+}
+/* 0822 변경된 부분 끝 */
 
 .badge {
   border-radius: 999px;
@@ -1528,6 +1604,10 @@ input[type="checkbox"]:checked + label {
 }
 
 .assessment-list div:nth-child(odd) div div + div .list-number .bg-dark {
+  background-color: #17448a !important;
+}
+
+.assessment-list .list-number .bg-dark {
   background-color: #17448a !important;
 }
 
@@ -3089,4 +3169,65 @@ body.space-top {
   overflow-wrap: break-word;
 }
 
+/* 2023.08.21 수정된 부분 시작*/
+.use-info {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  row-gap: 5px;
+  margin-bottom: 1rem;
+  font-size: 14px !important;
+}
+
+.use-info span {
+  display: flex;
+  align-items: center;
+}
+
+
+/* 2023.08.29 추가*/
+.book-review{
+  background-color: #007bff!important;
+  border: none!important;
+  color: #fff;
+  padding: 4px 14px 4px 14px!important;
+  background-color: #ffffff;
+  
+}
+
+/* 2023.09.13 추가*/
+.level_btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 15px;
+  padding:30px 20px;
+  cursor: pointer;
+}
+
+
+
+.level_btn:hover{
+  background-color: #007bff;
+  border: 1px solid #dcdcdc;
+  color: #fff;
+}
+
+.level_btn .level_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.02rem;
+  text-align: center;
+  line-height:1.3;
+}
+
+.level_btn .level_t_icon{
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+}
 
