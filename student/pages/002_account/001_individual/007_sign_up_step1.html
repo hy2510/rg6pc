@@ -244,7 +244,9 @@
                         <input type="password" class="form-control rounded-10 dim-input" placeholder="비밀번호 확인">
                     </div>
                     <div class="mb-3">
-                        <span class="txt-grey-14">비밀번호는 영문, 숫자를 조합하여 6자리 이상을 입력해 주세요.</span>
+                        <span class="txt-grey-14">비밀번호는 영문, 숫자, 특수문자 조합 8~20자리로 입력해 주세요.</span>
+                        <!-- 영어: Password Must be 8 to 20 Characters and a Combination of Numbers, Letters or Special Characters. -->
+                        <!-- 베트남: 기존거에서 숫자만 8, 20으로 바꿔서 사용 -->
                     </div>
                     <!-- 올바른 비번 입력 메세지 -->
                     <div class="d-none mb-3">
@@ -255,12 +257,22 @@
                     </div>
                     <!-- 회원 가입 동의 관련 체크 -->
                     <div class="mb-3 txt-dark-14">
-                        <input type="checkbox" name="" value="" checked>
-                        <span>본 회원가입 작성자는 만 14세 이상입니다. (필수)</span>
+                        <input type="checkbox" name="" value="">
+                        <span>[필수] 본 회원가입 작성자는 만 14세 이상입니다.</span>
                     </div>
-                    <div class="mb-3 txt-dark-14">
-                        <input type="checkbox" name="간편 로그인" value="" checked>
-                        <span><a href="">이용 약관 및 개인정보 취급방침</a>에 동의 합니다. (필수)</span>
+                    <div class="mb-3 txt-dark-14 d-flex align-items-center justify-content-between">
+                        <div>
+                            <input type="checkbox" name="간편 로그인" value="">
+                            <span>[필수] 이용약관을 확인하였으며 해당 내용에 동의 합니다.</span>
+                        </div>
+                        <div><a href="/">내용보기</a></div>
+                    </div>
+                    <div class="mb-3 txt-dark-14 d-flex align-items-center justify-content-between">
+                        <div>
+                            <input type="checkbox" name="간편 로그인" value="">
+                            <span>[필수] 개인정보 취급방침을 확인하였으며 해당 내용에 동의 합니다.</span>
+                        </div>
+                        <div><a href="/">내용보기</a></div>
                     </div>
                     <!-- 다음 화면 전환 버튼 -->
                     <div class="mb-3">
@@ -304,7 +316,7 @@
                         <a href="">이용 약관</a>
                     </li>
                     <li>
-                        <a href="">개인정보 취급방침</a>
+                        <a href="">개인정보 처리방침</a>
                     </li>
                     <li>
                         <a href="">사업자 정보</a>
