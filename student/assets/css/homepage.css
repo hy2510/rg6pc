@@ -1330,4 +1330,85 @@ border-radius: 14px;
 background-color: #704EA6 !important;
 }
 
+/* 개인정보 처리방침 영역 */
+.privacy-policy-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
+.privacy-policy-contents .comment {
+    font-size: 14px;
+    color: #999;
+}
+
+.privacy-policy-contents .square-symbol {
+    width: 10px;
+    height: 10px;
+    background-color: #404040;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.privacy-policy-table {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    overflow: scroll;
+    font-size: 14px;
+    gap: 1px;
+    background-color: #dee2e6;
+    border: 1px solid #dee2e6;
+    list-style-type: disc;
+}
+
+.privacy-policy-table .colm-a, 
+.privacy-policy-table .colm-b {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.privacy-policy-table .colm-a {
+    background-color: #f0f2f5;
+    font-weight: 600;
+}
+
+.privacy-policy-table .colm-b ul {
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+
+.privacy-policy-table .colm-b .indent {
+    list-style-type: circle;
+    margin-left: 15px;
+}
+
+.consignment-table {
+    display: grid;
+    grid-template-columns: 3fr 3fr 5fr;
+    min-width: 500px;
+    font-size: 14px;
+    gap: 1px;
+    background-color: #dee2e6;
+    border: 1px solid #dee2e6;
+    list-style-type: disc;
+}
+
+.consignment-table .colm {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.consignment-table .head.colm {
+    background-color: #f0f2f5;
+    font-weight: 600;
+}
+
+.consignment-table .colm ul {
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+
+ul {
+    padding-left: 15px;
+    margin-bottom: 0;
+}
