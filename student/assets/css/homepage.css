@@ -1334,12 +1334,33 @@ background-color: #704EA6 !important;
 .privacy-policy-contents {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    align-items: start;
+    gap: 12px;
+}
+
+.privacy-policy-contents .sub-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
 }
 
 .privacy-policy-contents .comment {
     font-size: 14px;
     color: #999;
+}
+
+.privacy-policy-contents .contents {
+    font-size: 14px;
+}
+
+.privacy-policy-contents .contents .contents-p {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.privacy-policy-contents .contents ul {
+    list-style-type: none;
+    color: #333;
 }
 
 .privacy-policy-contents .square-symbol {
